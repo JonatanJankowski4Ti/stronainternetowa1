@@ -1,73 +1,47 @@
-/* Ustawienia domyślne dla całej strony */
-body {
-    font-family: Georgia, serif;
-    text-align: center;
+.site {
+    display: flex;
 }
 
-/* Styl dla banera i stopki */
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
 header, footer {
     background-color: #BA6B6C;
     color: white;
     padding: 7px;
 }
-
-/* Styl dla bloku lewego i prawego */
 .left, .right {
     background-color: #EF9A9A;
     width: 20%;
     height: 500px;
-    display: inline-block;
-    vertical-align: top;
 }
-
-/* Styl dla bloku środkowego */
-.middle {
-    background-color: MistyRose;
+main {
+    background-color: mistyrose;
     width: 60%;
     height: 500px;
-    display: inline-block;
-    vertical-align: top;
 }
-
-/* Styl dla bloku z danymi */
 .data {
-    background-color: MistyRose;
+    background-color: mistyrose;
     padding: 50px;
 }
-
-/* Lista numerowana: użycie cyfr rzymskich */
 ol {
     list-style-type: upper-roman;
 }
-
-/* Wyrównanie tekstu w liście do lewej strony */
-h2 {
+li {
     text-align: left;
 }
-
-/* Pierwsza litera nagłówka drugiego stopnia */
 h2::first-letter {
     font-size: 170%;
-    color: Maroon;
+    color: maroon;
 }
-
-/* Styl dla tabeli */
 table {
     margin: auto;
     width: 80%;
-    border: 1px solid Maroon;
-    border-collapse: collapse;
+    border: 1px solid maroon;
 }
-
-/* Obramowanie komórek tabeli */
-table td, table th {
-    border: 1px solid Maroon;
-    padding: 5px;
-}
-
-/* Styl dla obrazka */
 img {
     height: 120px;
     margin: 7px;
-    box-shadow: 7px 7px 7px DimGray;
+    box-shadow: 7px 7px 7px dimgray;
 }
